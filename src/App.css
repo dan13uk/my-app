@@ -1,10 +1,50 @@
-.App {
-  text-align: center;
+.board {
 }
+
+.comment {
+  margin-bottom: 2em;
+}
+.userInfo {
+  width: 30%;
+  display: flex;
+  padding: 5px;
+}
+.userDetails span{
+  display: block;
+}
+.usrIcon{
+  padding: 0.1em 1em 0.1em 0.1em;
+}
+.indComment {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.userComment {
+  background-color: #5556550d;
+  padding: 5px;
+  width: 70%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.loadMoreButtonContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.loadMoreButtonContainer button{
+  height: 35px;
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .App-header {
